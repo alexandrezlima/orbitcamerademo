@@ -173,6 +173,6 @@ Module['FS_createPath']('/OrbitCamera/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 95, "filename": "/UE4CommandLine.txt"}, {"start": 95, "audio": 0, "end": 98490550, "filename": "/OrbitCamera/Content/Paks/OrbitCamera-HTML5.pak"}], "remote_package_size": 98490550, "package_uuid": "0b78980e-8bc9-46e5-97db-311304ea89ba"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 95, "filename": "/UE4CommandLine.txt"}, {"start": 95, "audio": 0, "end": 83710730, "filename": "/OrbitCamera/Content/Paks/OrbitCamera-HTML5.pak"}], "remote_package_size": 83710730, "package_uuid": "7a586cca-5518-43b1-8bd8-874caf4dc82d"});
 
 })();

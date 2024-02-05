@@ -18,7 +18,7 @@ Module.expectedDataFileDownloads++;
     } else {
       throw 'using preloaded data can only be done on a web page or in a web worker';
     }
-    var PACKAGE_NAME = 'C:/Users/Alexandre/Downloads/Projetos GitHub/OrbitCamera/Binaries/HTML5/OrbitCamera.data';
+    var PACKAGE_NAME = 'C:/Users/Alexandre/Downloads/UpdateOrbit/OrbitCamera/Binaries/HTML5/OrbitCamera.data';
     var REMOTE_PACKAGE_BASE = 'OrbitCamera.data';
     if (typeof Module['locateFilePackage'] === 'function' && !Module['locateFile']) {
       Module['locateFile'] = Module['locateFilePackage'];
@@ -149,10 +149,10 @@ Module['FS_createPath']('/OrbitCamera/Content', 'Paks', true, true);
           for (var i = 0; i < files.length; ++i) {
             DataRequest.prototype.requests[files[i].filename].onload();
           }
-              Module['removeRunDependency']('datafile_C:/Users/Alexandre/Downloads/Projetos GitHub/OrbitCamera/Binaries/HTML5/OrbitCamera.data');
+              Module['removeRunDependency']('datafile_C:/Users/Alexandre/Downloads/UpdateOrbit/OrbitCamera/Binaries/HTML5/OrbitCamera.data');
 
     };
-    Module['addRunDependency']('datafile_C:/Users/Alexandre/Downloads/Projetos GitHub/OrbitCamera/Binaries/HTML5/OrbitCamera.data');
+    Module['addRunDependency']('datafile_C:/Users/Alexandre/Downloads/UpdateOrbit/OrbitCamera/Binaries/HTML5/OrbitCamera.data');
   
     if (!Module.preloadResults) Module.preloadResults = {};
   
@@ -173,6 +173,6 @@ Module['FS_createPath']('/OrbitCamera/Content', 'Paks', true, true);
   }
 
  }
- loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 95, "filename": "/UE4CommandLine.txt"}, {"start": 95, "audio": 0, "end": 83710730, "filename": "/OrbitCamera/Content/Paks/OrbitCamera-HTML5.pak"}], "remote_package_size": 83710730, "package_uuid": "7a586cca-5518-43b1-8bd8-874caf4dc82d"});
+ loadPackage({"files": [{"start": 0, "audio": 0, "end": 53, "filename": "/Manifest_NonUFSFiles_HTML5.txt"}, {"start": 53, "audio": 0, "end": 95, "filename": "/UE4CommandLine.txt"}, {"start": 95, "audio": 0, "end": 83692391, "filename": "/OrbitCamera/Content/Paks/OrbitCamera-HTML5.pak"}], "remote_package_size": 83692391, "package_uuid": "70b03cba-92a1-49c9-8621-5590dd99fc2e"});
 
 })();
